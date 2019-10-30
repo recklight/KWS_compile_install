@@ -32,21 +32,18 @@ mbed deploy
 ```
 
 6. [安裝"gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe"](https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe?revision=419232c3-aefe-4049-a88a-7b4ea055ebc7?product=GNU-RM%20Downloads,32-bit,,Windows,6-2017-q2-update)
-```
 
-7. 設定GCC_ARM_PATH
+
+7. 設定 GCC_ARM_PATH & compile
 ```
 mbed config -G GCC_ARM_PATH "C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q2-update\bin"
-```
 
-8.
-```
 mbed compile -m DISCO_F746NG -t GCC_ARM --source . --source ../Source --source ../Examples/realtime_test --source ../CMSIS_5/CMSIS/NN/Include --source ../CMSIS_5/CMSIS/NN/Source --source ../CMSIS_5/CMSIS/DSP/Include --source ../CMSIS_5/CMSIS/DSP/Source --source ../CMSIS_5/CMSIS/Core/Include --profile ../release_O3.json -j 8
 
 ```
 
-9. 以上步驟中如果有跳出未安裝的package，使用pip install安裝
+8. 以上步驟中如果有跳出未安裝的package，使用pip install安裝
 
-10. 將位於"..\ML-KWS-for-MCUmaster\Deployment\kws_realtime_test\BUILD\DISCO_F746NG\GCC_ARM-RELEASE_O3G\kws_realtime_test.bin" 拉到板子，完成
+9. 將位於"..\ML-KWS-for-MCUmaster\Deployment\kws_realtime_test\BUILD\DISCO_F746NG\GCC_ARM-RELEASE_O3G\kws_realtime_test.bin" 拉到板子，完成
 
 
