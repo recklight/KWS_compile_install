@@ -8,10 +8,7 @@ conda create --name kws_env python=2.7 anaconda
 activate kws_env
 ```
 
-2. 安裝Git
-```
-https://git-scm.com/
-```
+2. [安裝Git](https://git-scm.com/)
 
 3. 安裝缺少的package
 ```
@@ -20,7 +17,6 @@ pip install mercurial
 pip install paramiko
 pip install jsonschema
 pip install pyelftools
-...
 ```
 
 4. 解壓縮 ML-KWS-for-MCU.rar，將當前目錄移至
@@ -35,9 +31,7 @@ cp ../Examples/realtime_test/mbed_libs/*.lib /
 mbed deploy
 ```
 
-6. 安裝 "gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe"
-```
-https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe?revision=419232c3-aefe-4049-a88a-7b4ea055ebc7?product=GNU-RM%20Downloads,32-bit,,Windows,6-2017-q2-update
+6. [安裝"gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe"](https://developer.arm.com/-/media/Files/downloads/gnu-rm/6-2017q2/gcc-arm-none-eabi-6-2017-q2-update-win32-sha2.exe?revision=419232c3-aefe-4049-a88a-7b4ea055ebc7?product=GNU-RM%20Downloads,32-bit,,Windows,6-2017-q2-update)
 ```
 
 7. 設定GCC_ARM_PATH
