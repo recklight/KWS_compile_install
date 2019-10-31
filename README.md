@@ -1,4 +1,7 @@
 # KWS_compile_install
+```
+git clone https://github.com/recklight/KWS_compile_install.git
+```
 
 ## To Use:
 
@@ -8,22 +11,20 @@ conda create --name kws_env python=2.7 anaconda
 activate kws_env
 ```
 
-2. [安裝Git](https://git-scm.com/)
-
-3. 安裝缺少的package
+2. [安裝Git](https://git-scm.com/) & 安裝缺少的package
 ```
-pip install mbed-cli
-pip install mercurial
-pip install paramiko
-pip install jsonschema
-pip install pyelftools
+apt-get install git
+apt-get install mbed-cli
+apt-get install mercurial
+apt-get install paramiko
+apt-get install jsonschema
+apt-get install pyelftools
 ```
 
-4. 解壓縮 ML-KWS-for-MCU.rar，得到資料夾 ML-KWS-for-MCU-master
-解壓縮CMSIS_5.rar 到 "/ML-KWS-for-MCU-master/Deployment" 中
+4. 解壓縮 ML-KWS-for-MCU.rar，得到資料夾 ML-KWS-for-MCU-master；解壓縮CMSIS_5.rar 到 "/ML-KWS-for-MCU-master/Deployment" 中
 ```
 rar x ML-KWS-for-MCU.rar /
-rar x 解壓縮CMSIS_5.rar /ML-KWS-for-MCU/Deployment
+rar x CMSIS_5.rar /ML-KWS-for-MCU/Deployment
 ```
 
 5. 將當前目錄移至
