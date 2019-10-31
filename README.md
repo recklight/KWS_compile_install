@@ -1,4 +1,4 @@
-# KWS_compile_install
+# KWS_compile_install (Windows)
 
 [安裝Git](https://git-scm.com/)
 
